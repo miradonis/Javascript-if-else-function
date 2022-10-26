@@ -1,0 +1,13 @@
+article {
+    width: 32vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 30vh auto 10vh auto;
+}
+
+form {
+    margin: 0 auto 10vh 0;
+}

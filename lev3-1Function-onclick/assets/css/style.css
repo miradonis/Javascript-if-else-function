@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+article {
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+div {
+    height: 100px;
+    width:100px;
+    background-color: grey;
+    margin: 5vh ;
+}

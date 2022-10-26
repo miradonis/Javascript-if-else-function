@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    text-align: center;
+    margin: 30vh auto;
+    background-color: gray;
+    width: 20vw;
+    height: 35vh;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+form input {
+    margin: 15% 0 10% 0;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+}
+
+#colorButton{
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    margin-top: 8%;
+    background-color: greenyellow;
+}

@@ -1,0 +1,26 @@
+
+form {
+    width: 30vw;
+    margin: 40vh auto;
+    text-align: center;
+}
+
+form h2 {
+    margin-right: 27vw;
+}
+
+form input {
+    width: 30vw;
+}
+
+form p:nth-of-type(1) {
+    margin-right: 27vw;
+    font-weight: bold;
+}
+
+#first,
+#second {
+    
+    font-size: 1.5rem;
+    line-height: 3vh;
+}

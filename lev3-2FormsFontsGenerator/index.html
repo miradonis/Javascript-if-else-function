@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>lev3_2: forms-js_fonts-generator</title>
+</head>
+
+<body>
+    <article>
+        <h1>Fonts Generator</h1>
+        <form>
+            <input type="range" min="30" max="60" value="1" class="slider" id="myRange" onchange="changeFontSize()">
+            <select onchange="changeFontSize()" name="font" id="fonts">
+                <option value="">Wähle eine Schrift</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="gillSans">Gill Sans</option>
+                <option value="lucidaSans">Lucida Sans</option>
+                <option value="impact">Impact</option>
+            </select>
+            <input id="inputText" type="text" onchange="changeFontSize()">
+        </form>
+        <p id="output"></p>
+
+    </article>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

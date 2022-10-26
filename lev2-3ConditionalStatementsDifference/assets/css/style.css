@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 15vw;
+    height: 30vh;
+    text-align: center;
+    background-color: aqua;
+    margin: 30vh auto;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+form input {
+    margin: 6vh 0 4vh 0;
+    padding: .5vh 1vw;
+    border-radius: 8px;
+}
+
+form button {
+    padding: .5vh 2vw;
+    margin-bottom: 6vh;
+    background-color: black;
+    color: aqua;
+}
+
+form p {
+    font-size: 1.2rem;
+}
